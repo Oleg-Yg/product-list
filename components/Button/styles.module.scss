@@ -1,0 +1,16 @@
+.button {
+  width: 100%;
+  border-radius: 3px;
+  outline: none;
+  padding: 8px 10px;
+  letter-spacing: 1px;
+  color: white;
+  border: none;
+  &:hover {
+    opacity: 0.9;
+    cursor: pointer;
+  }
+  &:active {
+    opacity: 0.8;
+  }
+}

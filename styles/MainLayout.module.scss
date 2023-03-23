@@ -1,0 +1,19 @@
+.navbar {
+    padding: 14px;
+    background: #5271ef;
+    display: flex;
+    justify-content: center;
+
+    .link {
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+        margin-right: 15px;
+    }
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}

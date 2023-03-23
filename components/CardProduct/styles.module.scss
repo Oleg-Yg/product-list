@@ -1,0 +1,45 @@
+.cardProduct {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 3px;
+    border-radius: 3px;
+    width: 250px;
+
+    .img {
+        height: 170px;
+        object-fit: cover;
+    }
+
+    .info {
+        padding: 5px;
+
+        .infoTitle {
+            display: flex;
+            justify-content: space-between;
+
+            .title {
+                font-size: 18px;
+                font-weight: bold;
+            }
+
+            .title::first-letter {
+                text-transform: uppercase;
+            }
+
+            .badge {
+                background: gray;
+                border-radius: 3px;
+                padding: 3px;
+                font-weight: bold;
+            }
+
+            .badge::first-letter {
+                text-transform: uppercase;
+            }
+        }
+
+        .brand {
+            font-size: 18px;
+        }
+    }
+}
